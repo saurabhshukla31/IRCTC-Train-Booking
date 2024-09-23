@@ -1,47 +1,79 @@
-IRCTC Train Booking Automation
-A Cypress-based automation script for booking IRCTC Tatkal tickets in under a minute by automating the login, captcha solving, and multiple passenger details filling process.
+Here's a more visually appealing and structured version of your README.md for "IRCTC Train Booking" with markdown styling:
 
-Features
-Book Tatkal, Premium Tatkal, and Normal Tickets.
-Auto-login with your IRCTC username and password.
-Captcha solving and retry mechanism for increased success.
-Multiple passenger support with pre-filled information.
-UPI ID or QR Code for payment gateway automation.
-Supports food choices, seat preferences, and auto-upgradation.
-Books only when confirmed berths are available.
-Setup
-Install NodeJS, Python, and pip.
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/saurabhshukla31/IRCTC-Train-Booking.git
-Configure passenger details in cypress/fixtures/passenger_data.json.
-Set your IRCTC login credentials in cypress.env.json.
-Install required dependencies:
-bash
-Copy code
-npm install
-pip install -r irctc-captcha-solver/requirements.txt
-Run the automation:
-bash
-Copy code
-npx cypress run --headed --no-exit
-Configuration
-Edit cypress/fixtures/passenger_data.json to update your:
+---
 
-Train number, class, date, source, and destination.
-Passenger details: name, age, gender, seat preference, and food choice.
-Edit cypress.env.json for IRCTC login credentials and captcha mode:
+# 🚄 IRCTC Train Booking Automation
 
-json
-Copy code
+A **Cypress-based automation script** to book IRCTC Tatkal tickets effortlessly in under a minute, automating login, captcha solving, and passenger details filling.
+
+---
+
+## ✨ Features
+
+- ✅ Book **Tatkal**, **Premium Tatkal**, and **Normal Tickets**.
+- ✅ Auto-login using **IRCTC credentials**.
+- ✅ **Captcha solving** with retries for successful booking.
+- ✅ Support for **multiple passengers** with pre-filled details.
+- ✅ **Payment automation** via **UPI ID** or **QR Code**.
+- ✅ Choose **food preferences** and **seat preferences**.
+- ✅ **Auto-upgradation** enabled.
+- ✅ Book only if **confirmed berths** are available.
+
+---
+
+## 🛠 Setup
+
+### Prerequisites
+
+- Install **NodeJS**, **Python**, and **pip**.
+
+### Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/saurabhshukla31/IRCTC-Train-Booking.git
+   ```
+2. **Configure passenger details** in `cypress/fixtures/passenger_data.json`.
+3. **Set your IRCTC login credentials** in `cypress.env.json`.
+4. **Install dependencies**:
+   ```bash
+   npm install
+   pip install -r irctc-captcha-solver/requirements.txt
+   ```
+5. **Run the automation**:
+   ```bash
+   npx cypress run --headed --no-exit
+   ```
+
+---
+
+## ⚙️ Configuration
+
+### Passenger Details (`cypress/fixtures/passenger_data.json`)
+- **TRAIN_NO**: Train number (e.g., `"12318"`).
+- **TRAIN_COACH**: Coach class (e.g., `"3A"`).
+- **TRAVEL_DATE**: Date of travel (e.g., `"12/09/2023"`).
+- **SOURCE_STATION**: Source station (e.g., `"UMB"`).
+- **DESTINATION_STATION**: Destination station (e.g., `"BSB"`).
+- **PASSENGER_DETAILS**: Array of passenger details with:
+  - `NAME`: Passenger name.
+  - `AGE`: Passenger age.
+  - `GENDER`: Male/Female/Transgender.
+  - `SEAT`: Seat preference (e.g., `"Side Upper"`).
+  - `FOOD`: Food preference (Veg/Non-Veg/No Food).
+
+### IRCTC Credentials (`cypress.env.json`)
+```json
 {
     "USERNAME": "yourusername",
     "PASSWORD": "yourpassword",
     "MANUAL_CAPTCHA": false
 }
-Tip: Set MANUAL_CAPTCHA to true if you want to enter the captcha manually.
+```
+> **Note**: Set `MANUAL_CAPTCHA` to `true` if you wish to manually enter captcha.
 
-Disclaimer
-This project is for educational purposes only. The author is not responsible for any misuse of this code that violates IRCTC’s terms of service.
+---
 
+## ⚠️ Disclaimer
+
+> **For educational purposes only**. The author takes no responsibility for any misuse that violates IRCTC's terms of service or legal implications.
