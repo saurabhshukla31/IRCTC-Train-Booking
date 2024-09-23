@@ -1,42 +1,31 @@
-<<<<<<< HEAD
 {
-  "TRAIN_NO": "13236",
-  "TRAIN_COACH": "2S",
-  "TRAVEL_DATE": "16/10/2024",
-  "SOURCE_STATION": "PNBE",
+  "TRAIN_NO": "12876",
+  "TRAIN_COACH": "3A",
+  "TRAVEL_DATE": "31/08/2024",
+  "SOURCE_STATION": "BBS",
   "BOARDING_STATION": null,
-  "DESTINATION_STATION": "BKP",
+  "DESTINATION_STATION": "LKO",
   "TATKAL": false,
   "PREMIUM_TATKAL": false,
-  "UPI_ID_CONFIG": "saurabhkshukla2003@okicici",
+  "UPI_ID_CONFIG": "",
   "PASSENGER_DETAILS": [
     {
       "NAME": "Saurabh Shukla",
-      "AGE": 1,
+      "AGE": 21,
       "GENDER": "Male",
       "SEAT": "Side Upper",
       "FOOD": "Veg"
-    }
-  ]
-=======
-{
-  "TRAIN_NO": "13236",
-  "TRAIN_COACH": "2S",
-  "TRAVEL_DATE": "16/10/2024",
-  "SOURCE_STATION": "PNBE",
-  "BOARDING_STATION": null,
-  "DESTINATION_STATION": "BKP",
-  "TATKAL": false,
-  "PREMIUM_TATKAL": false,
-  "UPI_ID_CONFIG": "saurabhkshukla2003@okicici",
-  "PASSENGER_DETAILS": [
+    },
     {
-      "NAME": "Saurabh Shukla",
-      "AGE": 1,
+      "NAME": "Rishi Shukla",
+      "AGE": 21,
       "GENDER": "Male",
-      "SEAT": "Side Upper",
-      "FOOD": "Veg"
+      "SEAT": "No Preference",
+      "FOOD": "No Food"
     }
-  ]
->>>>>>> 85dd6d61f39a6bd67e05e34d9fe98216dce4abdb
+  ],
+  "__valid_coaches__": "SL | 2A | 3A | 3E | 1A | CC | EC | 2S",
+  "__valid_seats__": "Lower | Middle | Upper | Side Lower | Side Upper | Window Side | No Preference",
+  "__valid_genders__": "Male | Female | Transgender",
+  "__valid_food_choices__": "Veg | Non Veg | No Food"
 }
