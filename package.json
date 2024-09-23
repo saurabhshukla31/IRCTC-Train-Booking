@@ -1,0 +1,17 @@
+{
+  "name": "irctc-cypress-automation",
+  "version": "3.0.4",
+  "description": "IRCTC Ticket Booking",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "Shivam Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "fs.promises": "^0.1.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
