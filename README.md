@@ -1,7 +1,3 @@
-Here's a more visually appealing and structured version of your README.md for "IRCTC Train Booking" with markdown styling:
-
----
-
 # 🚄 IRCTC Train Booking Automation
 
 A **Cypress-based automation script** to book IRCTC Tatkal tickets effortlessly in under a minute, automating login, captcha solving, and passenger details filling.
