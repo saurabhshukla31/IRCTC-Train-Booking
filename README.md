@@ -1,5 +1,7 @@
 # 🚄 IRCTC Train Booking Automation
 
+https://github.com/user-attachments/assets/2c6ff7ee-7cf5-49e2-a438-03d916d55293
+
 A **Cypress-based automation script** to book IRCTC Tatkal tickets effortlessly in under a minute, automating login, captcha solving, and passenger details filling.
 
 ---
@@ -73,3 +75,5 @@ A **Cypress-based automation script** to book IRCTC Tatkal tickets effortlessly 
 ## ⚠️ Disclaimer
 
 > **For educational purposes only**. The author takes no responsibility for any misuse that violates IRCTC's terms of service or legal implications.
+
+
