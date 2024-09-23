@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "TRAIN_NO": "13236",
   "TRAIN_COACH": "2S",
@@ -17,4 +18,25 @@
       "FOOD": "Veg"
     }
   ]
+=======
+{
+  "TRAIN_NO": "13236",
+  "TRAIN_COACH": "2S",
+  "TRAVEL_DATE": "16/10/2024",
+  "SOURCE_STATION": "PNBE",
+  "BOARDING_STATION": null,
+  "DESTINATION_STATION": "BKP",
+  "TATKAL": false,
+  "PREMIUM_TATKAL": false,
+  "UPI_ID_CONFIG": "saurabhkshukla2003@okicici",
+  "PASSENGER_DETAILS": [
+    {
+      "NAME": "Saurabh Shukla",
+      "AGE": 1,
+      "GENDER": "Male",
+      "SEAT": "Side Upper",
+      "FOOD": "Veg"
+    }
+  ]
+>>>>>>> 85dd6d61f39a6bd67e05e34d9fe98216dce4abdb
 }
